@@ -1,16 +1,156 @@
-# React + Vite
+# 🌐 Duraipandi K – Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Personal Portfolio Website** built using **React + Vite** to showcase my projects, skills, education, and contact information.
 
-Currently, two official plugins are available:
+Designed with a clean UI, reusable React components, animations, and fast performance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✨ Responsive Design
+✨ Modern UI Layout
+✨ Smooth Navigation
+✨ Animated Hero Section
+✨ Project Showcase
+✨ About Section
+✨ Contact Section
+✨ Resume Download Support
+✨ Optimized with Vite
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+### Frontend
+
+* React.js
+* Vite
+* JavaScript
+* HTML5
+* CSS3
+
+### Tools
+
+* Git
+* GitHub
+* VS Code
+
+---
+
+## 📁 Project Structure
+
+```bash
+PORTFOLIO/
+│
+├── public/
+│   ├── favicon.svg
+│   ├── Fruit_Image.jpg
+│   ├── Laptop_image.jpg
+│   ├── Perfume_Image.jpg
+│   ├── Photo.png
+│   └── Resume.pdf
+│
+├── src/
+│   ├── assets/
+│   │
+│   ├── components/
+│   │   ├── AboutSection.jsx
+│   │   ├── ContactSection.jsx
+│   │   ├── Footer.jsx
+│   │   ├── HeroSection.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── ProjectsSection.jsx
+│   │   └── ShootingStars.jsx
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 📌 Portfolio Sections
+  Home
+  About
+  My Journey
+  Skills
+  Featured Projects
+  Contact
+  
+---
+
+## ⚙ Installation & Setup
+
+Clone repository:
+
+```bash
+git clone https://github.com/your-username/portfolio.git
+```
+
+Move into folder:
+
+```bash
+cd portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+Open browser:
+
+```bash
+http://localhost:5173
+```
+
+Build production version:
+
+```bash
+npm run build
+```
+
+Preview build:
+
+```bash
+npm run preview
+```
+
+---
+
+##  Resume
+
+Resume is available inside the **public** folder and can be downloaded directly from the portfolio.
+
+---
+
+## Connect With Me
+
+Email: duraipandi1811@gmail.com
+GitHub: https://github.com/your-username
+LinkedIn: https://linkedin.com/in/your-profile
+
+---
+
+Building • Learning • Growing Every Day
+
+---
+
+© 2026 Durai Pandi K | Built with React + Vite
