@@ -6,7 +6,7 @@ Designed with a clean user interface, reusable React components, smooth animatio
 
 ---
 
-## ✨ Features
+##  Features
 
 * Responsive Design
 * Modern UI Experience
@@ -80,7 +80,12 @@ PORTFOLIO/
 
 ## 📌 Portfolio Sections
 
-Home • About • My Journey • Skills • Featured Projects • Contact
+* Home
+* About
+* My Journey
+* Skills
+* Featured Projects
+* Contact
 
 ---
 
@@ -130,13 +135,13 @@ npm run preview
 
 ---
 
-## 📄 Resume
+## Resume
 
 My resume is available inside the **public** folder and can be downloaded directly from the portfolio website.
 
 ---
 
-## 🌐 Connect With Me
+## Connect With Me
 
 📧 Email: [duraipandi1811@gmail.com](mailto:duraipandi1811@gmail.com)
 
