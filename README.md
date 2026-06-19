@@ -2,21 +2,21 @@
 
 A modern and responsive **Personal Portfolio Website** built using **React + Vite** to showcase my projects, skills, education, and contact information.
 
-Designed with a clean UI, reusable React components, animations, and fast performance.
+Designed with a clean user interface, reusable React components, smooth animations, and optimized performance.
 
 ---
 
-## Features
+## ✨ Features
 
-✨ Responsive Design
-✨ Modern UI Layout
-✨ Smooth Navigation
-✨ Animated Hero Section
-✨ Project Showcase
-✨ About Section
-✨ Contact Section
-✨ Resume Download Support
-✨ Optimized with Vite
+* Responsive Design
+* Modern UI Experience
+* Smooth Navigation
+* Animated Hero Section
+* Featured Projects Showcase
+* About & Journey Sections
+* Contact Integration
+* Resume Download Support
+* Fast Performance with Vite
 
 ---
 
@@ -53,7 +53,6 @@ PORTFOLIO/
 │
 ├── src/
 │   ├── assets/
-│   │
 │   ├── components/
 │   │   ├── AboutSection.jsx
 │   │   ├── ContactSection.jsx
@@ -80,13 +79,9 @@ PORTFOLIO/
 ---
 
 ## 📌 Portfolio Sections
-  Home
-  About
-  My Journey
-  Skills
-  Featured Projects
-  Contact
-  
+
+Home • About • My Journey • Skills • Featured Projects • Contact
+
 ---
 
 ## ⚙ Installation & Setup
@@ -94,10 +89,10 @@ PORTFOLIO/
 Clone repository:
 
 ```bash
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/Duraipandi1811/portfolio.git
 ```
 
-Move into folder:
+Move into project:
 
 ```bash
 cd portfolio
@@ -115,19 +110,19 @@ Run development server:
 npm run dev
 ```
 
-Open browser:
+Open:
 
 ```bash
 http://localhost:5173
 ```
 
-Build production version:
+Build production:
 
 ```bash
 npm run build
 ```
 
-Preview build:
+Preview production build:
 
 ```bash
 npm run preview
@@ -135,22 +130,24 @@ npm run preview
 
 ---
 
-##  Resume
+## 📄 Resume
 
-Resume is available inside the **public** folder and can be downloaded directly from the portfolio.
-
----
-
-## Connect With Me
-
-Email: duraipandi1811@gmail.com
-GitHub: https://github.com/your-username
-LinkedIn: https://linkedin.com/in/your-profile
+My resume is available inside the **public** folder and can be downloaded directly from the portfolio website.
 
 ---
 
-Building • Learning • Growing Every Day
+## 🌐 Connect With Me
+
+📧 Email: [duraipandi1811@gmail.com](mailto:duraipandi1811@gmail.com)
+
+💻 GitHub:
+https://github.com/Duraipandi1811
+
+💼 LinkedIn:
+https://linkedin.com/in/durai-pandi-k
 
 ---
 
-© 2026 Durai Pandi K | Built with React + Vite
+⭐ Building • Learning • Growing Every Day
+
+© 2026 Duraipandi K | Built with React + Vite
