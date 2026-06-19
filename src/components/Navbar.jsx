@@ -26,8 +26,8 @@ const Navbar = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
-        <a href="#" className="text-2xl font-serif font-bold tracking-widest text-white uppercase italic">
-          Portfolio<span className="text-accent-purple font-sans not-italic ml-1">.</span>
+        <a href="#home" className="text-2xl font-serif font-bold tracking-widest text-white uppercase italic">
+          DuraiPandi<span className="text-accent-purple font-sans not-italic ml-1">.</span>
         </a>
 
         {/* Desktop Nav */}
