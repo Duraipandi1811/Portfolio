@@ -6,19 +6,30 @@ import { FiGithub as Github } from 'react-icons/fi';
 const projects = [
   {
     title: 'Perfume Shop Application',
-    description: 'A responsive e-commerce perfume website featuring a unified user interface across devices. Handled contact form submissions via secure REST APIs.',
+    description: 'A responsive e-commerce web application with secure REST APIs, contact form integration, and a smooth user experience across all devices.',
     tech: ['HTML/CSS/JS', 'Node.js', 'Express', 'MongoDB'],
-    github: 'https://github.com/Duraipandi1811',
-    live: '#',
-    image: 'https://images.unsplash.com/photo-1590736969955-71cc94801759?q=80&w=1200&auto=format&fit=crop',
+    github: 'https://github.com/Duraipandi1811/Website_Project',
+    live: 'https://website-project-five-orcin.vercel.app/',
+    image: 'Perfume_Image.jpg',
   },
   {
     title: 'Fruit Shop Application',
-    description: 'A feature-rich fruit shop application dedicated to managing inventory, carts, and customer interactions smoothly.',
+    description: 'A full stack e-commerce application with product management, shopping cart, checkout flow, and responsive user experience powered by modern web technologies.',
     tech: ['MongoDB', 'Express', 'Node.js', 'DOM API'],
     github: 'https://github.com/Duraipandi1811',
     live: '#',
-    image: 'https://images.unsplash.com/photo-1610832958506-aa56368176cf?q=80&w=1200&auto=format&fit=crop',
+    image: 'Fruit_Image.jpg',
+  },
+  {
+    title: 'Campus Placement Portal',
+
+    description:
+    'A full stack web application designed to streamline campus recruitment by enabling student registration, job postings, application tracking, and efficient placement management through an interactive and responsive interface.',
+    tech: ['React', 'MongoDB', 'Express', 'Node.js'],
+    github: 'https://github.com/Duraipandi1811',
+    live: '#',
+    image:
+    'Laptop_image.jpg',
   }
 ];
 
@@ -47,10 +58,10 @@ const ProjectsSection = () => {
         >
           <div>
             <h2 className="text-4xl md:text-5xl font-bold tracking-tight">
-              Selected <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent-purple to-accent-cyan">Works</span>
+              Featured <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent-purple to-accent-cyan">Projects</span>
             </h2>
             <p className="mt-4 text-gray-400 max-w-2xl text-lg">
-              A showcase of my recent standout projects. I strive to combine elegant architecture with stunning, intuitive interfaces.
+              A collection of projects that reflect my experience in full stack development, responsive design, and building practical web applications.
             </p>
           </div>
           
@@ -113,10 +124,10 @@ const ProjectsSection = () => {
                   {/* Action Buttons */}
                   <div className="flex flex-col sm:flex-row gap-4">
                     <a href={project.live} target="_blank" rel="noreferrer" className="flex items-center justify-center bg-white text-black px-8 py-4 rounded-full font-bold hover:bg-gray-200 transition-all shadow-lg w-full sm:w-auto group">
-                      <ExternalLink size={20} className="mr-2 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" /> Live Demo
+                      <ExternalLink size={20} className="mr-2 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" /> Live Preview
                     </a>
                     <a href={project.github} target="_blank" rel="noreferrer" className="flex items-center justify-center bg-transparent border border-white/20 text-white px-8 py-4 rounded-full font-semibold hover:bg-white/5 transition-all w-full sm:w-auto group">
-                      <Github size={20} className="mr-2 group-hover:scale-110 transition-transform" /> Source Code
+                      <Github size={20} className="mr-2 group-hover:scale-110 transition-transform" /> View Code 
                     </a>
                   </div>
                 </div>

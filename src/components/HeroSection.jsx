@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaJava, FaNodeJs, FaHtml5, FaCss3Alt, FaGithub, FaLinkedin, FaDatabase, FaGitAlt } from 'react-icons/fa';
 import { SiMongodb, SiJavascript, SiPostman , SiExpress,  SiLeetcode } from 'react-icons/si';
-import { VscVscodeInsiders } from "react-icons/vsc";
+import { VscCode } from "react-icons/vsc";
 const skills = [
   { icon: <FaJava size={32} className="text-[#ED8B00]" />, name: 'Java' },
   { icon: <SiJavascript size={32} className="text-[#F7DF1E]" />, name: 'JS' },
@@ -13,7 +13,7 @@ const skills = [
   { icon: <FaHtml5 size={32} className="text-[#E34F26]" />, name: 'HTML5' },
   { icon: <FaGitAlt size={32} className="text-[#F05032]" />, name: 'Git' },
   { icon: <SiPostman size={32} className="text-[#F05032]" />, name: 'Postman' },
-  { icon: <VscVscodeInsiders  size={32} className="text-[#F05032]" />, name: 'Vs Code' },
+  { icon: <VscCode size={32} className="text-[#007ACC]" />, name: 'Vs Code' },
 ];
 
 const HeroSection = () => {
@@ -36,6 +36,8 @@ const HeroSection = () => {
             { top: '85%', left: '45%' },
             { top: '45%', left: '5%' },
             { top: '50%', left: '90%' },
+            { top: '35%', left: '50%' },
+            { top: '65%', left: '65%' },
           ];
 
           const pos = positions[index % positions.length];
@@ -93,11 +95,11 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-5xl md:text-6xl lg:text-7xl font-serif tracking-tight mb-6"
+            className="text-4xl md:text-4xl lg:text-5xl font-serif tracking-tight mb-6"
           >
-            Crafting Elegant <br className="hidden lg:block"/>
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent-cyan via-white to-accent-purple italic pr-4">
-               Experiences
+            Crafting Scalable <br className="hidden lg:block"/>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent-cyan via-white to-accent-purple font-serif font-bold pr-4">
+              User-Friendly Digital Experiences
             </span>
           </motion.h1>
 
@@ -108,7 +110,7 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="max-w-xl text-lg md:text-xl text-gray-400 mb-10"
           >
-            Skilled software developer with expertise in Java, frontend technologies, and SQL. Experienced in OOP, algorithm development, API integration, and version control.
+            Passionate Software Developer with experience in Java, Full Stack Development, and modern web technologies. Skilled in building responsive applications, API integration, database management, and developing clean, efficient solutions through real-world projects.
           </motion.p>
 
           {/* Buttons & Socials */}
@@ -168,7 +170,7 @@ const HeroSection = () => {
               <div className="absolute inset-0 rounded-[2rem] border border-accent-purple/30 shadow-[0_20px_50px_rgba(0,0,0,0.5)] overflow-hidden group-hover:border-accent-purple transition-all duration-700 z-10">
                 <div className="w-full h-full bg-bg-secondary relative">
                   <img 
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop" 
+                    src="Photo.png" 
                     alt="Profile" 
                     className="w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-transform duration-700 filter grayscale group-hover:grayscale-0"
                   />
@@ -184,8 +186,8 @@ const HeroSection = () => {
                 transition={{ delay: 1, duration: 0.5 }}
                 className="absolute -bottom-6 -left-6 md:-left-10 bg-bg-secondary/95 backdrop-blur-md border border-white/5 px-6 py-4 rounded-2xl shadow-xl z-20"
               >
-                <div className="text-accent-purple font-serif italic text-xl whitespace-nowrap mb-1">Est. 2020</div>
-                <div className="text-[10px] text-gray-400 uppercase tracking-[0.2em] font-semibold">Years of Excellence</div>
+                <div className="text-accent-purple font-serif italic text-xl whitespace-nowrap mb-1">Duraipandi K</div>
+                <div className="text-[10px] text-gray-400 uppercase tracking-[0.2em] font-semibold">Full Stack Developer</div>
               </motion.div>
             </div>
           </motion.div>

@@ -67,7 +67,7 @@ const AboutSection = () => {
             </h2>
 
             <p className="text-gray-400 text-base md:text-lg leading-relaxed mb-8 max-w-2xl">
-              I'm a passionate software developer with a strong foundation in Java, Database Management, and backend APIs. I've successfully built responsive full-stack web applications and am constantly refining my object-oriented problem-solving skills.
+              Passionate Software Developer with experience in Full Stack Development, Java, and backend technologies. Focused on building responsive and user-friendly web applications while continuously improving problem-solving and development skills.
             </p>
 
             {/* Experience & Knowledge Multi-Column */}
@@ -81,8 +81,14 @@ const AboutSection = () => {
                 </h3>
                 <div className="mt-4">
                   <ExperienceItem
-                    year="Nov 2022 - Jun 2026"
-                    role="B.E in Computer Science (7.73 CGPA)"
+                    year="Internship"
+                    role="Full Stack Development"
+                    company="Phoenix Softech"
+                    delay={0.4}
+                  />
+                  <ExperienceItem
+                    year="Nov 2022 - Apr 2026"
+                    role="B.E in Computer Science Engineering (7.74 CGPA)"
                     company="KPR Institute of Engineering and Technology"
                     delay={0.2}
                   />
@@ -93,10 +99,10 @@ const AboutSection = () => {
                     delay={0.3}
                   />
                   <ExperienceItem
-                    year="Internship"
-                    role="Full Stack Development"
-                    company="Phoenix Softech"
-                    delay={0.4}
+                    year="Jun 2019 - Apr 2020"
+                    role="SSLC (74%)"
+                    company="Thiruvalluvar Matric Higher Secondary School"
+                    delay={0.3}
                   />
                 </div>
               </div>
@@ -105,25 +111,25 @@ const AboutSection = () => {
               <div className="flex-1">
                 <h3 className="text-xl font-bold text-white mb-6 flex items-center">
                   <span className="w-6 h-1 bg-gradient-to-r from-accent-purple to-accent-cyan rounded-full mr-3"></span>
-                  Knowledge Area
+                  Achievements
                 </h3>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="p-5 bg-white/5 border border-white/10 rounded-2xl hover:bg-white/10 transition-colors shadow-lg hover:shadow-[0_0_20px_rgba(139,92,246,0.15)] flex flex-col justify-center">
                     <div className="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-accent-purple to-accent-cyan mb-1">
                       200+
                     </div>
-                    <div className="text-[10px] text-gray-400 uppercase tracking-widest font-semibold flex flex-col gap-1"><span>LeetCode Solutions</span> <span className="text-accent-cyan uppercase text-[8px]">50 Days / Two Badges</span></div>
+                    <div className="text-[10px] text-gray-400 uppercase tracking-widest font-semibold flex flex-col gap-1"><span>LeetCode Solutions</span> <span className="text-accent-purple uppercase text-[7px]">50 Days Badges/ Two Monthly Badges</span></div>
                   </div>
                   <div className="p-5 bg-white/5 border border-white/10 rounded-2xl hover:bg-white/10 transition-colors shadow-lg hover:shadow-[0_0_20px_rgba(6,182,212,0.15)] flex flex-col justify-center">
                     <div className="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-accent-purple to-accent-cyan mb-1">
                       200+
                     </div>
-                    <div className="text-[10px] text-gray-400 uppercase tracking-widest font-semibold flex flex-col gap-1"><span>E-Box Coding Ex.</span> <span className="text-accent-purple uppercase text-[8px]">Java Foundation Grads</span></div>
+                    <div className="text-[10px] text-gray-400 uppercase tracking-widest font-semibold flex flex-col gap-1"><span>E-Box Coding Ex.</span> <span className="text-accent-purple uppercase text-[7px]">Java Foundation </span></div>
                   </div>
                   <div className="col-span-2 p-5 bg-white/5 border border-white/10 rounded-2xl hover:bg-white/10 transition-colors shadow-lg mt-2">
                     <div className="text-sm font-bold text-white mb-2 tracking-wide">Core Competencies</div>
                     <div className="flex flex-wrap gap-2">
-                      {['Java OOP', 'Data Structures', 'REST APIs', 'MongoDB/SQL', 'Git Version Control'].map((item, i) => (
+                      {['Java OOP', 'REST APIs', 'SQL','Problem Solving', 'MongoDB', 'Git & GitHub', 'Responsive Design'].map((item, i) => (
                         <span key={i} className="text-xs px-2 py-1 bg-white/5 border border-white/10 rounded-md text-gray-300">
                           {item}
                         </span>
@@ -144,7 +150,7 @@ const AboutSection = () => {
               className="mt-10"
             >
               <a
-                href="/resume.pdf"
+                href="/Resume.pdf"
                 download
                 className="group flex items-center justify-center space-x-3 bg-white/5 border border-white/10 text-white px-8 py-4 rounded-full font-semibold hover:bg-accent-purple hover:border-accent-purple transition-all duration-300 shadow-lg hover:shadow-[0_0_30px_rgba(139,92,246,0.5)]"
               >

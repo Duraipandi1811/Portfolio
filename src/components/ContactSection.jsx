@@ -29,7 +29,7 @@ const ContactSection = () => {
             </span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-             Whether you have a massive project idea, need a consultation, or simply want to chat about the latest in frontend tech—my inbox is always open.
+             Open to internships, collaborations, and new opportunities. Feel free to reach out for projects, discussions, or to connect and build something meaningful together.
           </p>
         </motion.div>
 
@@ -55,12 +55,12 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="text-gray-400 text-xs font-semibold uppercase tracking-[0.2em] mb-2">Direct Inquiry</h4>
-                    <a href="mailto:duraipandi1811@gmail.com" className="text-white text-xl md:text-2xl font-serif italic hover:text-accent-cyan transition-colors break-all">duraipandi1811@gmail.com</a>
+                    <a href="mailto:duraipandi1811@gmail.com?subject=Portfolio%20Inquiry&body=Hello%20Duraipandi," className="text-white text-xl md:text-1xl font-serif italic hover:text-accent-purple transition-colors break-all">duraipandi1811@gmail.com</a>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-6">
-                  <div className="mt-1 text-accent-cyan">
+                  <div className="mt-1 text-accent-purple">
                     <Phone size={28} strokeWidth={1.5} />
                   </div>
                   <div>
@@ -87,17 +87,17 @@ const ContactSection = () => {
             {/* Right Action / "Letter" Panel */}
             <div className="flex-1 w-full flex flex-col items-center justify-center space-y-8 text-center border-t md:border-t-0 md:border-l border-white/5 pt-10 md:pt-0 md:pl-16">
               <h3 className="text-3xl font-serif italic text-white flex flex-col">
-                <span>Let's Discuss</span>
-                <span className="text-accent-purple tracking-tight">Your Vision</span>
+                <span>Let's Build</span>
+                <span className="text-accent-purple tracking-tight">Something Together</span>
               </h3>
               <p className="text-gray-400 text-sm leading-relaxed">
-                I specialize in architecting sophisticated, responsive web applications for brands that refuse to compromise on quality. Reach out to schedule a consultation.
+                Interested in working together or discussing ideas? I'm always open to learning, collaborating, and creating impactful digital experiences.
               </p>
               
               <motion.a
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
-                href="mailto:duraipandi1811@gmail.com"
+                href="mailto:duraipandi1811@gmail.com?subject=Portfolio%20Inquiry&body=Hello%20Duraipandi,"
                 className="mt-4 px-10 py-4 font-semibold text-black bg-accent-cyan hover:bg-white rounded-full transition-all tracking-wide text-sm uppercase shadow-[0_0_20px_rgba(229,229,229,0.2)]"
               >
                 Send a Message
